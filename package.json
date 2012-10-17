@@ -10,8 +10,4 @@
     "url" : "https://github.dev.capitol.fr/rcanedo/winston-unix-syslog/issues"
   }
 , "main" : "./winston-unix-syslog.js"
-, "dependencies" : { }
-, "engines" : {
-    "node": "0.6 || 0.7 || 0.8"
-  }
 }
