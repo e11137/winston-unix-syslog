@@ -12,7 +12,7 @@ var levels = Object.keys({
 });
 
 var UnixSyslog = exports.Syslog = function (options) {
-   var SysLogger = require("./Logger.node").Logger;
+   var SysLogger = require("./build/Release/Logger.node").Logger;
    this. name = options.name || process.title;
    this.facility  = options.facility  || 'local0';
    this.logger = new SysLogger(this.name, this.facility);
