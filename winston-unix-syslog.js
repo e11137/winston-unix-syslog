@@ -1,14 +1,14 @@
 var util = require('util'),
     winston = require('winston');
 var levels = Object.keys({
-   debug: 0, 
-   info: 1, 
-   notice: 2, 
-   warning: 3,
-   error: 4, 
-   crit: 5,
-   alert: 6,
-   emerg: 7
+   emerg:0,
+   alert:1,
+   crit:2,
+   error:3,
+   warning:4,
+   notice:5,
+   info:6,
+   debug:7
 });
 
 var UnixSyslog = exports.Syslog = function (options) {
